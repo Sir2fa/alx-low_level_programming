@@ -7,11 +7,11 @@
 int main(void)
 {
 int n, m;
-for (n = 48; n <= 56; n++)
+for (n = 47; n <= 57; n++)
 {
-for (m = 47; m <= 57; m++)
+for (m = 48; m <= 56; m++)
 {
-if (m > n)
+if (n > m)
 {
 putchar(m);
 putchar(n);
