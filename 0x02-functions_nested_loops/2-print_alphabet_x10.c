@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print_alpahbets_x10 - Entry point
+*print_alphabet_x10 - Entry point
 *describtion: fuctions and nested loops
 *Return: Always 0
 */
