@@ -2,7 +2,7 @@
 	#include <stdlib.h>
 
 	/**
-	 * main - multiplies two numbers.
+	 * main -Multiplies two numbers.
 	 * @argc: argument count
 	 * @argv: argument vector
 	 *
