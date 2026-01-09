@@ -2,7 +2,7 @@
 	#include <stdlib.h>
 
 	/**
-	 * main -Multiplies two numbers.
+	 * main - multiplies two numbers.
 	 * @argc: argument count
 	 * @argv: argument vector
 	 *
@@ -20,7 +20,7 @@
 
 		num1 = atoi(argv[1]);
 		num2 = atoi(argv[2]);
-		printf("%d\n",  num1 * num2);
+		printf("%d\n", num1 * num2);
 
 		return (0);
 	}
