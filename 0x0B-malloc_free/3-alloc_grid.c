@@ -9,7 +9,6 @@
  *
  * Return
  */
-
 int **alloc_grid(int col, int row)
 {
 	int x, y, **grid;
