@@ -2,22 +2,22 @@
 #include <stdlib.h>
 
 /**
- * _strlen - find the length of the string
+ * _strlen - find length of string
  * @s: str
  * Return: int
  */
 
-char *argstostr(int ac, char **av);
+
 int _strlen(char *s)
 {
 int size = 0;
-for (; s[size] !='\0'; size++)
+for (; s[size] != '\0'; size++)
 ;
 return (size);
 }
 
 /**
- * argstostr - describtion
+ * *argstostr - description
  * @ac: int
  * @av: argument
  * Return: str
