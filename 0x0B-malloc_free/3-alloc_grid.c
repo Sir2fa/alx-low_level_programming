@@ -3,12 +3,12 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - make 2-D array dynamically
- * @col: column of the array
- * @row: row of the array
- *
- * Return
- */
+* alloc_grid - make 2-D array dynamically
+* @col: column of the array
+* @row: row of the array
+*
+* Return
+*/
 int **alloc_grid(int col, int row)
 {
 	int x, y, **grid;
