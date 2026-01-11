@@ -7,9 +7,9 @@
  * @col: column of the array
  * @row: row of the array
  *
- * Return 
- * : pointer to the 2-D array
+ * Return
  */
+
 int **alloc_grid(int col, int row)
 {
 	int x, y, **grid;
