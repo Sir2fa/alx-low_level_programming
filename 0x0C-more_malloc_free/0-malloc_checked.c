@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-/** malloc_checked - allocates memory using malloc
+/**
+ * malloc_checked - allocates memory using malloc
  * @b: size of variable
  * Return: address of variable
  */
