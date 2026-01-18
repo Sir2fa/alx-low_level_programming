@@ -5,7 +5,6 @@
  * @name: dog owner
  * @age: dog age
  * @owner: dog owner
- * @Return:-nitialized struct
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
