@@ -4,8 +4,8 @@
 
 /**
  * main - Prints result of simple operations.
- * @argc - The number of arguments count to the program.
- * @argv - An array of pointer to the program.
+ * @argc: The number of arguments count to the program.
+ * @argv: An array of pointer to the program.
  *
  * Return: Always 0.
  */
