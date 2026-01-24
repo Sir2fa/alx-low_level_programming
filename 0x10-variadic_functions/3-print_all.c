@@ -11,12 +11,12 @@ void print_all(const char * const format, ...);
 /**
  * print_char - Points to a char
  * @arg: A list of argumnets pointing to
- * 	the character to be printed.
+ *	the character to be printed.
  */
 
 void print_char(va_list arg)
 {
-char letter;
+	char letter;
 
 	letter = va_arg(arg, int);
 	printf("%c", letter);
@@ -25,11 +25,11 @@ char letter;
 /**
  * print_int - prints an int
  * @arg: A list of arguments pointing to
- * 	the integer to be printed.
+ *	the integer to be printed.
  */
 void print_int(va_list arg)
 {
-int num;
+	int num;
 
 	num = va_arg(arg, int);
 	printf("%d", num);
@@ -38,11 +38,12 @@ int num;
 /**
  * print_float - prints a float
  * @arg: A list of arguments pointing to
- * 	the float to be printed.
+ *	the float to be printed.
  */
 void print_float(va_list arg)
 {
 	float num;
+
 	num = va_arg(arg, double);
 	printf("%f", num);
 }
