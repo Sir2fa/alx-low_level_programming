@@ -2,7 +2,7 @@
 
 /**
  * myStartupFun - Apply the constructor attribute to myStartupFun () so that it
- * 	is excuted before main()
+ *	is excuted before main()
  */
 void start(void) __attribute__((constructor));
 
