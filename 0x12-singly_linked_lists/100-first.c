@@ -4,7 +4,8 @@
  * start - the string before the function execution.
  */
 
-void __attribute__((constructor)) start(void);
+void start(void) __attribute__((constructor));
+
 
 void start(void)
 {

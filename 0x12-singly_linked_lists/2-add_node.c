@@ -22,9 +22,9 @@ list_t *add_node(list_t **head, const char *str)
 	if (duo_str == NULL)
 	{
 		free(add);
-		return(NULL);
+		return (NULL);
 	}
-	
+
 	while (str[len] != '\0')
 		len++;
 
