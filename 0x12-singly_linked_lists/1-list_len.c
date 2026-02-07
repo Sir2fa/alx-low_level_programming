@@ -6,7 +6,6 @@
 /**
  * list_len - check the length of element in list_t
  * @h: Name of list_t list
- * @counts: Counter var for int (nodes).
  * Return: Number of nodes.
  */
 size_t list_len(const list_t *h)
