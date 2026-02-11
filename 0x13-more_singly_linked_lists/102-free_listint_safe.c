@@ -42,7 +42,8 @@ size_t free_listint_safe(listint_t **h)
 	size_t links, idx = 0;
 
 	if (h == NULL || *h == NULL)
-			return (idx);
+		return (idx);
+
 	while (*h != NULL)
 	{
 		for (links = 0; links < idx; links++)

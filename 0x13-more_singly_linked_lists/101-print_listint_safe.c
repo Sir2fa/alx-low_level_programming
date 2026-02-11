@@ -33,7 +33,7 @@ const listint_t *new)
 /**
  * print_listint_safe - prints listint_t linked list.
  * @head: Pointer to the head of node.
- *  
+ *
  * Return: Number of nodes in the list.
  */
 size_t print_listint_safe(const listint_t *head)
