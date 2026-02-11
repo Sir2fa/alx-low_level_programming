@@ -3,7 +3,6 @@
 #include "lists.h"
 
 /**
- *
  * _rallo - allocate new memory to array of pointers.
  * @list: The former list to add.
  * @size: Size of current list.
@@ -11,7 +10,8 @@
  *
  * Return: Pointer to new list.
  */
-const listint_t **_rallo(const listint_t **list, size_t size, const listint_t *new)
+const listint_t **_rallo(const listint_t **list, size_t size,
+const listint_t *new)
 {
 	const listint_t **append;
 	size_t x;
@@ -40,6 +40,7 @@ size_t free_listint_safe(listint_t **h)
 	listint_t *temp;
 	const listint_t **list = NULL;
 	size_t links, idx = 0;
+
 	if (h == NULL || *h == NULL)
 			return (idx);
 	while (*h != NULL)

@@ -3,7 +3,6 @@
 #include "lists.h"
 
 /**
- *
  * _allo - allocate new memory to array of pointers.
  * @list: The former list to add.
  * @size: Size of current list.
@@ -11,7 +10,8 @@
  *
  * Return: Pointer to new list.
  */
-const listint_t **_allo(const listint_t **list, size_t size, const listint_t *new)
+const listint_t **_allo(const listint_t **list, size_t size,
+const listint_t *new)
 {
 	const listint_t **append;
 	size_t x;
@@ -31,10 +31,10 @@ const listint_t **_allo(const listint_t **list, size_t size, const listint_t *ne
 
 
 /**
- *  print_listint_safe - prints listint_t linked list.
- *  @head: Pointer to the head of node.
+ * print_listint_safe - prints listint_t linked list.
+ * @head: Pointer to the head of node.
  *  
- *  Return: Number of nodes in the list.
+ * Return: Number of nodes in the list.
  */
 size_t print_listint_safe(const listint_t *head)
 {
@@ -43,7 +43,7 @@ size_t print_listint_safe(const listint_t *head)
 
 	while (head != NULL)
 	{
-		for(linked = 0; linked < idx; linked++)
+		for (linked = 0; linked < idx; linked++)
 		{
 			if (head == list[linked])
 			{
